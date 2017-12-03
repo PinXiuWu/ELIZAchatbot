@@ -1,0 +1,20 @@
+<head>
+  <title>ELIZAchatbot</title>
+</head>
+
+<body>
+  <center>
+  <h1>This is my ELIZA!</h1>
+
+  <form>
+    <p>
+      <!--利用allMsg的helper得到所有訊息-->
+      <textarea id = "conversationBox" rows = "20" cols = "80" readOnly> {{allMsg}}</textarea>
+    </p>
+    <input type = "text" id = "myMsg" size = "80" placeholder = "Enter your message" /> <br>
+    <input type = "submit" id = "submitMsg" value = "Submit" />
+    <input type = "reset" id = "resetMsg" value = "Reset" />
+  </form>
+
+ </center>
+</body>
